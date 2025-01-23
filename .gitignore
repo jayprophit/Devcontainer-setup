@@ -1,1 +1,34 @@
-1
+# Node.js
+node_modules/
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker/env/
+docker-compose.override.yml
+
+# Private files
+private/
+
+# Build files
+dist/
+build/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Java
+*.class
+target/
+
+# Tests
+coverage/
+
+# Smart contracts
+*.abi
+*.bin
