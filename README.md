@@ -99,6 +99,7 @@ my_project/
 └── CHANGELOG.md               # Version history and release notes
 ```
 
+```markdown
 Key Additions:
 	1.	.github/:
 	•	Includes CI/CD workflows (e.g., GitHub Actions).
@@ -119,7 +120,7 @@ Key Additions:
 	•	Expanded scripts folder to include linter, setup, and deployment automation.
 	9.	Private Folder:
 	•	Enhanced for sensitive data storage with logs and datasets.
-
+```
 
 ```markdown
 Example .gitignore:
