@@ -3,6 +3,7 @@ Devcontainer setup, devcontainer, docker, .env etc
 
 Here’s the ultimate and comprehensive folder structure template that covers all possible requirements for a project involving frontend, backend, JavaScript, Java, Docker, devcontainers, and other critical components. This structure ensures scalability, modularity, and ease of use for various project types (web, mobile, desktop, dApp, etc.).
 
+```markdown
 my_project/
 ├── .devcontainer/             # Devcontainer setup for development environments
 │   ├── Dockerfile             # Dockerfile for dev environment
@@ -96,6 +97,7 @@ my_project/
 ├── LICENSE                    # License file
 ├── README.md                  # Project overview/documentation
 └── CHANGELOG.md               # Version history and release notes
+```
 
 Key Additions:
 	1.	.github/:
@@ -118,6 +120,8 @@ Key Additions:
 	9.	Private Folder:
 	•	Enhanced for sensitive data storage with logs and datasets.
 
+
+```markdown
 Example .gitignore:
 
 # Node.js
@@ -154,5 +158,6 @@ coverage/
 # Smart contracts
 *.abi
 *.bin
+```
 
 This template is now highly robust and extensible, suitable for complex, multi-language, full-stack projects. Let me know if you’d like further adjustments or deeper explanations for specific folders!
